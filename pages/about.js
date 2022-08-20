@@ -1,10 +1,10 @@
 import Nav from '../components/Nav';
+import Seo from '../components/Seo';
 
 const About = () => {
   return (
     <div>
-      <Nav/>
-      about..
+      <Seo title="about"/>
     </div>
   );
 };
